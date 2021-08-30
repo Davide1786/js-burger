@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="css/style.css" />
+
+   <title>Titolo Documento</title>
+ </head>
+
+ <body>
+    <div id="container">
+       <!-- Inizio Header -->
+       <header>
+          <div class="box-top">
+             <div class="title">
+                <h1>Create Your Burger</h1>
+             </div>
+             <div class="hamburger">
+                <img src="img/burger-top.png" alt="Logo Burger">
+             </div>
+          </div>
+       </header>
+       <!-- Fine Header -->
+    
+       <!-- Inizio Main -->
+       <main>
+         <div class="name_burger">
+            <input id="Your-Burger" type="text" name="Your-Burger" placeholder="Name Your Burger">
+         </div>
+         <h2>Ingredients</h2>
+         <div class="wrapper clearfix">
+            <div class="box-sx">
+               <div class="box">
+                  <div class="image">
+                     <img src="img/cheese.svg" alt="Cheese">
+                  </div>
+                  <div class="select">
+                     <p>Cheese</p>
+                     <input class="new-checkbox" type="checkbox" id="cheese" name="ingredient[]" value="3">
+                     <label class="ingredient" for="cheese">Add</label>
+                  </div>
+               </div>
+               <div class="box">
+                  <div class="image">
+                     <img src="img/fried-egg.svg" alt="Egg">
+                  </div>
+                  <div class="select">
+                     <p>Egg</p>
+                     <input class="new-checkbox" type="checkbox" id="egg" name="ingredient[]" value="6">
+                     <label class="ingredient" for="egg">Add</label>
+                  </div>
+               </div>
+               <div class="box">
+                  <div class="image">
+                     <img src="img/mustard.svg" alt="Mustard">
+                  </div>
+                  <div class="select">
+                     <p>Mustard</p>
+                     <input class="new-checkbox" type="checkbox" id="mustard" name="ingredient[]" value="9">
+                     <label class="ingredient" for="mustard">Add</label>
+                  </div>
+               </div>
+            </div>
+            <div class="box-dx">
+               <div class="box">
+                  <div class="image">
+                     <img src="img/tomato.svg" alt="Tomato">
+                  </div>
+                  <div class="select">
+                     <p>Tomato</p>
+                     <input class="new-checkbox" type="checkbox" id="tomato" name="ingredient[]" value="12">
+                     <label class="ingredient" for="tomato">Add</label>
+                  </div>
+               </div>
+               <div class="box">
+                  <div class="image">
+                     <img src="img/lettuce.svg" alt="Lettuce">
+                  </div>
+                  <div class="select">
+                     <p>Lettuce</p>
+                     <input class="new-checkbox" type="checkbox" id="lettuce" name="ingredient[]" value="15">
+                     <label class="ingredient" for="lettuce">Add</label>
+                  </div>
+               </div>
+               <div class="box">
+                  <div class="image">
+                     <img src="img/ketchup.svg" alt="Ketchup">
+                  </div>
+                  <div class="select">
+                     <p>Ketchup</p>
+                     <input class="new-checkbox" type="checkbox" id="ketchup" name="ingredient[]" value="18">
+                     <label class="ingredient" for="ketchup">Add</label>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="coupon">
+            <p class="discount">Discount Coupon</p>
+            <input id="cod" type="text" name="cod" placeholder="Inserisci il coupon di sconto">
+           
+         </div>
+         <div id="calculate">
+            <button class="calc" onclick="calculate()">calculate</button>
+         </div>
+       </main>
+       <!-- Fine Main -->
+    
+       <!-- Inizio Footer -->
+       <footer>
+          <div class="container-price">
+             <div class="your-price">
+                <h3>Your Price</h3>
+             </div>
+             <div class="price">
+                <h3 id="price"></h3>
+             </div>
+          </div>
+       </footer>
+       <!-- Fine Footer -->
+    </div>
+
+
+    <script src="js/main.js"></script>
+ </body>
+</html>
