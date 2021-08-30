@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/styleSuperBonus.css" />
+
+   <title>Your-Bourger</title>
+ </head>
+
+ <body>
+    <div class="container">
+       <!-- Inizio Header -->
+       <header>
+          <div id="logo">
+             <img src="img/logo.png" alt="logo Burger">
+          </div>
+          <div class="shopping">
+            <i class="fas fa-shopping-cart"></i>
+            <h4 id="shopping"></h4>
+          </div>
+       </header>
+       <!-- Fine Header -->
+    
+       <!-- Inizio Main -->
+       <main>
+          <h3>Scegli tra i nostri panini</h3>
+          <div id="Your-burger">
+             <div class="row linea mt-2">
+                <div class="col-sm-4 col-xl-4 col-md-4">
+                   <div class="sfondo-cerchio">
+                      <label for="test">
+                         <input type="radio" name="test" id="test" value="5">
+                         <img class="vedi" src="img/burgerboolean.png">
+                         <img class="nascosta" src="img/burgerboolean_red.png">
+                         <p class="panino">Burger Boolean</p>
+                      </label>                
+                   </div>
+                </div>
+                <div class="col-sm-4 col-xl-4 col-md-4">
+                   <div class="sfondo-cerchio">
+                      <label>
+                         <input type="radio" name="test" id="live" value="4">
+                         <img class="vedi" src="img/liveCoading.png">
+                         <img class="nascosta" src="img/livecoading_red.png">
+                         <p class="panino">Live Coading</p> 
+                      </label>
+                   </div>
+                </div>
+                <div class="col-sm-4 col-xl-4 col-md-4">
+                   <div class="sfondo-cerchio">
+                      <label>
+                         <input type="radio" name="test" id="js" value="6">
+                         <img class="vedi" src="img/javascript.png">
+                         <img class="nascosta" src="img/javascript_red.png">
+                         <p class="panino">Javascript</p>
+                      </label>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <!-- col-xs-6 col-xl-2 col-md-6 -->
+          <h3>Aggiungi altri ingredienti</h3>
+          <div class="row special text-center">
+             <div class="col-sm-6 col-md-4 col-lg-2 box d-flex flex-column">
+                <div class="sfondo-ovale">
+                   <label>
+                      <input class="new-checkbox" type="checkbox" name="test" value="4">
+                      <img class="vedi" src="img/hamburger.png" alt="">
+                      <img class="nascosta" src="img/hamburger_ara.png" alt="">
+                      <p class="aggiunta">Hamburger</p>
+                   </label>
+                </div>
+             </div>
+             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column">
+                <div class="sfondo-ovale">
+                   <label>
+                      <input class="new-checkbox" type="checkbox" name="test" value="4">
+                      <img class="vedi" src="img/cotoletta.png" alt="">
+                      <img class="nascosta" src="img/cotoletta_ara.png" alt="">
+                      <p class="aggiunta">Cotoletta</p>
+                   </label>
+                </div>
+             </div>
+             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column">
+                <div class="sfondo-ovale">
+                   <label>
+                      <input class="new-checkbox" type="checkbox" name="test" value="3">
+                      <img class="vedi" src="img/bacon.png" alt="">
+                      <img class="nascosta" src="img/bacon_ara.png" alt="">
+                      <p class="aggiunta">Bacon</p>
+                   </label>
+                </div>
+             </div>
+             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column">
+                <div class="sfondo-ovale">
+                   <label>
+                      <input class="new-checkbox" type="checkbox" name="test" value="2">
+                      <img class="vedi" src="img/lattuga.png" alt="">
+                      <img class="nascosta" src="img/lattuga_ara.png" alt="">
+                      <p class="aggiunta">Lattuga</p>
+                   </label>
+                </div>
+             </div>
+             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column">
+                <div class="sfondo-ovale"> 
+                   <label>
+                      <input class="new-checkbox" type="checkbox" name="test" value="3">
+                      <img class="vedi" src="img/formaggio.png" alt="">
+                      <img class="nascosta" src="img/formaggio_ara.png" alt="">
+                      <p class="aggiunta">Formaggio</p>
+                   </label>  
+                </div>
+             </div>
+             <div class="col-sm-6 col-md-4 col-lg-2 d-flex flex-column">
+                <div class="sfondo-ovale">
+                   <label>
+                      <input class="new-checkbox" type="checkbox" name="test" value="1">
+                      <img class="vedi" src="img/maionese.png" alt="">
+                      <img class="nascosta" src="img/maionese_ara.png" alt="">
+                      <p class="aggiunta">Maionese</p>
+                   </label>
+                </div>
+             </div>
+          </div>
+          <div class="row mt-5 sconto">
+            <div class="col-12 coupon">
+               <h5>Coupon sconto</h5>
+               <input id="cod" type="text" name="cod" placeholder="Inserisci il coupon di sconto">
+            </div>
+          </div>
+       </main>
+       <!-- Fine Main -->
+    
+       <!-- Inizio Footer -->
+       <footer>
+          <div class="bottoni">
+            <div id="calculate" class="red">
+               <button class="calc" onclick="calculate()">Calculate</button>
+            </div>
+            <div id="Annulla" class="orange">
+               <button class="calc" onclick="svuota()">Annulla</button>
+            </div>
+         </div>
+       </footer>
+       <!-- Fine Footer -->
+    </div>
+
+
+
+   <script src="js/mainSuperBonus.js"></script>
+ </body>
+</html>
